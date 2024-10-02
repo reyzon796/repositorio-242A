@@ -1,0 +1,72 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el título */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #34495e;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los inputs */
+input[type="number"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #bdc3c7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* Cambiar el color del borde cuando el campo está en foco */
+input[type="number"]:focus {
+    border-color: #3498db;
+}
+
+/* Estilos para el botón */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Cambiar el color de fondo del botón cuando se pasa el ratón */
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo del texto de salida */
+p {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+span#salida {
+    font-weight: bold;
+    color: #e74c3c;
+}
